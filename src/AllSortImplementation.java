@@ -15,7 +15,6 @@ public class AllSortImplementation {
             if (choose_for_y_n.equals("Y"))
             {
                 System.out.println("Enter the number of elements in the array");
-
                 length_mas = s.nextInt();
                 int[] mas = new int[length_mas];
                 for (int i = 0; i < mas.length; i++) {
